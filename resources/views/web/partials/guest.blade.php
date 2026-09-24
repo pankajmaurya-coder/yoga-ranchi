@@ -2,18 +2,18 @@
 
     <div class="container">
         <!-- SECTION HEADER -->
-        <div class="title mb-5">
+        <div class="title guest-title">
             <h2 class="welcome-heading">
-                Meet the <br>
-                <span class="text-yellow-700 text-4xl">
-                    Department of Yoga
+                Meet Our <br>
+                <span class="orange">
+                    Yoga Faculties
                 </span>
             </h2>
-            <p class="faculty-intro content">
+            {{-- <p class="faculty-intro content">
                 Our Department of Yoga brings together experienced academicians,
                 researchers and dedicated yoga professionals committed to
                 promoting education, wellness and holistic development.
-            </p>
+            </p> --}}
         </div>
 
 
@@ -28,11 +28,11 @@
 
                     <div class="faculty-image">
                         <img
-                            src="{{ asset('asset/web/about/yoga/bibhuti-bhushan-roy.jpg') }}"
+                            src="{{ asset('asset/web/about/faculty/bbr.webp') }}"
                             alt="Dr. Bibhuti Bhushan Roy"
                         >
 
-                        <span class="faculty-number">01</span>
+                        {{-- <span class="faculty-number">01</span> --}}
                     </div>
 
                     <div class="faculty-info">
@@ -61,11 +61,11 @@
 
                     <div class="faculty-image">
                         <img
-                            src="{{ asset('asset/web/about/yoga/manoj-soni.jpg') }}"
+                            src="{{ asset('asset/web/about/faculty/manoj.webp') }}"
                             alt="Dr. Manoj Soni"
                         >
 
-                        <span class="faculty-number">02</span>
+                        {{-- <span class="faculty-number">02</span> --}}
                     </div>
 
                     <div class="faculty-info">
@@ -94,11 +94,11 @@
 
                     <div class="faculty-image">
                         <img
-                            src="{{ asset('asset/web/about/yoga/pampa-sen-biswas.jpg') }}"
+                            src="{{ asset('asset/web/about/faculty/pampa.webp') }}"
                             alt="Dr. Pampa Sen Biswas"
                         >
 
-                        <span class="faculty-number">03</span>
+                        {{-- <span class="faculty-number">03</span> --}}
                     </div>
 
                     <div class="faculty-info">
@@ -127,11 +127,11 @@
 
                     <div class="faculty-image">
                         <img
-                            src="{{ asset('asset/web/about/yoga/khilesh-kumar.jpg') }}"
+                            src="{{ asset('asset/web/about/faculty/kr.webp') }}"
                             alt="Sri. Khilesh Kumar"
                         >
 
-                        <span class="faculty-number">04</span>
+                        {{-- <span class="faculty-number">04</span> --}}
                     </div>
 
                     <div class="faculty-info">
@@ -160,11 +160,11 @@
 
                     <div class="faculty-image">
                         <img
-                            src="{{ asset('asset/web/about/yoga/santosh-kumari.jpg') }}"
+                            src="{{ asset('asset/web/about/faculty/sn.webp') }}"
                             alt="Santosh Kumari"
                         >
 
-                        <span class="faculty-number">05</span>
+                        {{-- <span class="faculty-number">05</span> --}}
                     </div>
 
                     <div class="faculty-info">
@@ -194,11 +194,11 @@
 
                     <div class="faculty-image">
                         <img
-                            src="{{ asset('asset/web/about/yoga/manish-kumar.jpg') }}"
+                            src="{{ asset('asset/web/about/faculty/manish.webp') }}"
                             alt="Manish Kumar"
                         >
 
-                        <span class="faculty-number">06</span>
+                        {{-- <span class="faculty-number">06</span> --}}
                     </div>
 
                     <div class="faculty-info">
@@ -228,11 +228,11 @@
 
                     <div class="faculty-image">
                         <img
-                            src="{{ asset('asset/web/about/yoga/faculty-07.jpg') }}"
+                            src="{{ asset('asset/web/about/faculty/santoshi.webp') }}"
                             alt="Yoga Faculty"
                         >
 
-                        <span class="faculty-number">07</span>
+                        {{-- <span class="faculty-number">07</span> --}}
                     </div>
 
                     <div class="faculty-info">

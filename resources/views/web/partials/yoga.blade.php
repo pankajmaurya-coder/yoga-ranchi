@@ -5,7 +5,7 @@
             </div>
             <h2 class="welcome-heading">
                 LEARN THE DIFFERENT <br>
-                <span class="text-yellow-700 text-4xl">FORMS OF YOGA</span>
+                <span class="orange">FORMS OF YOGA</span>
             </h2>
 
         </div>
@@ -14,10 +14,10 @@
         <div class="industry-wrapper" id="industryWrapper">
             <!-- CARD 1 -->
             <div class="industry-card active">
-                <img src="{{ asset('asset/web/partials/work/tourism.webp') }}" alt="Tourism">
+                <img src="{{ asset('asset/web/image/yoga/vinyasa.webp') }}" alt="Tourism">
                 <div class="industry-overlay"></div>
                 <div class="industry-content">
-                    <h3>Vinyasa Yoga</h3>
+                    <h3>Vinyasa Yoga</h3>   
                     <div class="industry-details">
                         <p class="content">
                             The word “vinyasa” can be translated as
@@ -34,7 +34,7 @@
 
             <!-- CARD 2 -->
             <div class="industry-card">
-                <img src="{{ asset('asset/web/partials/work/ngo.webp') }}" alt="Mining">
+                <img src="{{ asset('asset/web/image/yoga/ashtanga.webp') }}" alt="Mining">
                 <div class="industry-overlay"></div>
                 <div class="industry-content">
                     <h3>Ashtanga Yoga</h3>
@@ -52,7 +52,7 @@
 
             <!-- CARD 3 -->
             <div class="industry-card">
-                <img src="{{ asset('asset/web/partials/work/industries.webp') }}" alt="Industry">
+                <img src="{{ asset('asset/web/image/yoga/Iyengar.webp') }}" alt="Industry">
                 <div class="industry-overlay"></div>
                 <div class="industry-content">
                     <h3>Iyengar Yoga</h3>
@@ -69,7 +69,7 @@
 
             <!-- CARD 4 -->
             <div class="industry-card">
-                <img src="{{ asset('asset/web/partials/work/hospital.webp') }}" alt="Healthcare">
+                <img src="{{ asset('asset/web/image/yoga/Bikram.webp') }}" alt="Healthcare">
 
                 <div class="industry-overlay"></div>
 
@@ -95,7 +95,7 @@
             <!-- CARD 5 -->
             <div class="industry-card">
 
-                <img src="{{ asset('asset/web/partials/work/Eductation.webp') }}" alt="Education">
+                <img src="{{ asset('asset/web/image/yoga/jivamukti.webp') }}" alt="Education">
 
                 <div class="industry-overlay"></div>
 
@@ -119,7 +119,7 @@
 
             {{-- card 6 --}}
             <div class="industry-card">
-                <img src="{{ asset('asset/web/partials/work/astrology.webp') }}" alt="Healthcare">
+                <img src="{{ asset('asset/web/image/yoga/Hatha.webp') }}" alt="Healthcare">
 
                 <div class="industry-overlay"></div>
 
@@ -143,7 +143,7 @@
             </div>
             {{-- card 7 --}}
             <div class="industry-card">
-                <img src="{{ asset('asset/web/partials/work/real-estate.webp') }}" alt="Healthcare">
+                <img src="{{ asset('asset/web/image/yoga/Restorative.webp') }}" alt="Healthcare">
 
                 <div class="industry-overlay"></div>
 

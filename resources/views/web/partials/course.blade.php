@@ -26,7 +26,7 @@
                     <div class="section-eyebrow">
                     </div>
                     <h2 class="welcome-heading ">
-                        <span class="text-yellow-700 text-4xl">Our Courses</span>
+                        <span class="orange">Our Courses</span>
                     </h2>
 
                 </div>
@@ -176,7 +176,7 @@
                 <a href="#" class="notice-item">
 
                     <div class="notice-date">
-                        <strong>04</strong>
+                        <strong>05</strong>
 
                     </div>
 
@@ -258,11 +258,11 @@
                 {{-- Image content --}}
                 <div class="notice-image-content">
 
-                    <span class="image-label">
+                    {{-- <span class="image-label">
                         RANCHI UNIVERSITY
-                    </span>
+                    </span> --}}
 
-                    <h3>
+                    {{-- <h3>
                         Knowledge Today
                         <br>
                         <em>A Brighter Tomorrow</em>
@@ -276,7 +276,7 @@
                         GROW
                         <span>|</span>
                         SERVE
-                    </p>
+                    </p> --}}
 
                 </div>
 

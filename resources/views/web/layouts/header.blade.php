@@ -85,7 +85,7 @@
 
             <!-- Home -->
             <li>
-                <a href="#">Home</a>
+                <a href="{{route('home')}}">Home</a>
             </li>
 
 

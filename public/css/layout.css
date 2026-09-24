@@ -26,16 +26,6 @@
 }
 
 
-.content , content > p{
-    font-family: var(--para);
-    font-size: clamp(19px, 1.05vw, 24px);
-    line-height: 1.8;
-    font-weight: 400;
-    letter-spacing: 0.015em;
-    color: #5b6670;
-    /* max-width: 700px; */
-    margin: 0 0 22px;
-}
 
 
 .logo{
@@ -139,7 +129,7 @@ a{text-decoration:none;}
     gap:14px;
 }
 .header-logo{
-    height: 150px;
+    height: 130px;
     width: auto;
 }
 .header-naac{
@@ -871,9 +861,6 @@ a{text-decoration:none;}
     letter-spacing: 1.5px;
 }
 
-/* =========================================================
-   CONTACT
-========================================================= */
 
 .footer-contact {
     gap: 23px;
@@ -881,10 +868,9 @@ a{text-decoration:none;}
 
 .footer-contact-item {
     display: flex;
-
     align-items: center;
-
-    gap: 13px;
+    gap: 25px;
+    margin-bottom: 5px;
 }
 
 .footer-contact-icon {

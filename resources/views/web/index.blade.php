@@ -13,7 +13,14 @@
 @section('content')
 @include('web.partials.slider')
 @include('web.partials.about')
+@include('web.partials.notice')
 @include('web.partials.course')
 @include('web.partials.yoga')
 @include('web.partials.guest')
+@include('web.partials.website')
 @endsection
+
+
+@push('js')
+    <script src="{{ asset('asset/js/notice.js') }}"></script>
+@endpush

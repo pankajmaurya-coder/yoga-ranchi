@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
 
 :root {
     --primary: #091f3e;
@@ -11,11 +11,9 @@
     --border: #e4e7ec;
     --surface: #f7f8fa;
 
-   --font-heading: "Cormorant Garamond", serif;
+    --font-heading: "Cormorant Garamond", serif;
     --font-body: "Barlow", sans-serif;
 }
-
-
 
 * {
     padding: 0px;
@@ -36,16 +34,69 @@ ul {
     margin: 0px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-heading);
 }
+.heading-primary {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    line-height: 1.05;
+    font-size: 30px;
+    letter-spacing: -0.02em;
+}
 
-.content, .content > p{
-    font-family: var(--font-body);
-    font-size: clamp(1rem, 0.3vw + 0.95rem, 1.125rem);
+.heading-secondary {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+}
+
+.heading-tertiary {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: min(100% - clamp(2rem, 6vw, 5rem), 1200px);
+    margin-inline: auto;
+}
+
+.content,
+.content > p {
+    /* font-family: var(--font-body);
+    font-size: clamp(18px, 3vw, 22px);
     font-weight: 400;
-    line-height: 1.8;
+    line-height: 1.6;
     letter-spacing: 0.008em;
-    color: #344054;
-    max-width: 72ch;
+    color: #010611;
+    max-width: 72ch; */
+    
+    /* font-family: var(--body-font);
+    font-size: clamp(17px, 1.05vw, 22px);
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #05090c;
+    max-width: 700px;
+    margin: 0 0 22px; */
+    font-family: var(--font-body);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: .25px;
+    color: #020202;
 }

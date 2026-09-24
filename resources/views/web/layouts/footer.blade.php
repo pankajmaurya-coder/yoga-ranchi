@@ -3,7 +3,7 @@
 
     <div class="footer-bg" aria-hidden="true">
         <img
-            src="{{ asset('asset/footer.webp') }}"
+            src="{{ asset('asset/web/footer.webp') }}"
             alt=""
         >
     </div>
@@ -14,24 +14,10 @@
 
     <div class="container footer-container">
 
-
-        {{-- =================================================
-            TOP FOOTER
-        ================================================= --}}
-
         <div class="footer-top">
-
-
-            {{-- =============================================
-                LEFT : QUICK LINKS
-            ============================================== --}}
-
             <div class="footer-column footer-navigation">
-
                 <div class="footer-section-title">
-
                     <span></span>
-
                     <h3>
                         QUICK LINKS
                     </h3>

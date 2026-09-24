@@ -14,15 +14,15 @@
     >
 
         <swiper-slide>
-            <img src="{{ asset('asset/web/hero/slider1.jpg') }}" alt="Slider 1">
+            <img src="{{ asset('asset/web/hero/slider1.webp') }}" alt="Slider 1">
         </swiper-slide>
 
         <swiper-slide>
-            <img src="{{ asset('asset/web/hero/slider2.png') }}" alt="Slider 2">
+            <img src="{{ asset('asset/web/hero/slider2.webp') }}" alt="Slider 2">
         </swiper-slide>
 
         <swiper-slide>
-            <img src="{{ asset('asset/web/hero/slider3.png') }}" alt="Slider 3">
+            <img src="{{ asset('asset/web/hero/slider3.webp') }}" alt="Slider 3">
         </swiper-slide>
 
         <div class="autoplay-progress" slot="container-end">
