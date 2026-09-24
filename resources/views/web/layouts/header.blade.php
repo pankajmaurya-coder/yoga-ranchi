@@ -91,7 +91,7 @@
 
             <!-- About -->
               <li>
-                <a href="#">About</a>
+                <a href="{{route('about')}}">About</a>
             </li>
             <!-- Administration -->
             <li class="nav-dropdown">

@@ -1,334 +1,287 @@
-<section class="faculty-section">
+<section class="yoga-faculty-section">
 
     <div class="container">
-
-        <div class="faculty-layout">
-
-            {{-- =================================================
-                FEATURED FACULTY
-            ================================================== --}}
-
-            <div class="faculty-intro">
-
-                <span class="faculty-eyebrow">
-                    Our Faculty
+        <!-- SECTION HEADER -->
+        <div class="title mb-5">
+            <h2 class="welcome-heading">
+                Meet the <br>
+                <span class="text-yellow-700 text-4xl">
+                    Department of Yoga
                 </span>
-
-                <h2>
-                    Meet Our
-                    <span>Experts</span>
-                </h2>
-
-                <p class="faculty-intro-text">
-                    Learn from experienced scholars and practitioners
-                    dedicated to the study, teaching and advancement
-                    of Yogic Science.
-                </p>
+            </h2>
+            <p class="faculty-intro content">
+                Our Department of Yoga brings together experienced academicians,
+                researchers and dedicated yoga professionals committed to
+                promoting education, wellness and holistic development.
+            </p>
+        </div>
 
 
-                {{-- Featured Person --}}
-                <div class="faculty-featured">
+        <!-- FACULTY SLIDER -->
+        <div class="faculty-slider-wrapper">
 
-                    <div class="faculty-featured-image">
+            <div class="faculty-slider" id="facultySlider">
 
+
+                <!-- CARD 1 -->
+                <article class="faculty-card">
+
+                    <div class="faculty-image">
                         <img
-                            src="{{ asset('asset/web/guest/sahu.png') }}"
-                            alt="Faculty Member"
+                            src="{{ asset('asset/web/about/yoga/bibhuti-bhushan-roy.jpg') }}"
+                            alt="Dr. Bibhuti Bhushan Roy"
                         >
 
+                        <span class="faculty-number">01</span>
                     </div>
 
-                    <div class="faculty-featured-info">
+                    <div class="faculty-info">
 
-                        <span class="faculty-featured-label">
-                            Featured Faculty
+                        <span class="faculty-role">
+                            Faculty Member
                         </span>
 
                         <h3>
-                            Dr. Sahu
+                            Dr. Bibhuti Bhushan Roy
                         </h3>
 
-                        <p>
-                            Faculty of Yogic Science
-                        </p>
+                        <ul>
+                            <li>D.Litt. with Specialisation in Yoga</li>
+                            <li>Research in Yoga and Society</li>
+                            <li>Doctoral work completed in 2018</li>
+                        </ul>
 
                     </div>
 
-                </div>
+                </article>
+
+
+                <!-- CARD 2 -->
+                <article class="faculty-card">
+
+                    <div class="faculty-image">
+                        <img
+                            src="{{ asset('asset/web/about/yoga/manoj-soni.jpg') }}"
+                            alt="Dr. Manoj Soni"
+                        >
+
+                        <span class="faculty-number">02</span>
+                    </div>
+
+                    <div class="faculty-info">
+
+                        <span class="faculty-role">
+                            Faculty Member
+                        </span>
+
+                        <h3>
+                            Dr. Manoj Soni
+                        </h3>
+
+                        <ul>
+                            <li>M.A. in Yoga Science</li>
+                            <li>Barkatullah University, Bhopal</li>
+                            <li>Academic experience in Yoga education</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARD 3 -->
+                <article class="faculty-card">
+
+                    <div class="faculty-image">
+                        <img
+                            src="{{ asset('asset/web/about/yoga/pampa-sen-biswas.jpg') }}"
+                            alt="Dr. Pampa Sen Biswas"
+                        >
+
+                        <span class="faculty-number">03</span>
+                    </div>
+
+                    <div class="faculty-info">
+
+                        <span class="faculty-role">
+                            Faculty Member
+                        </span>
+
+                        <h3>
+                            Dr. Pampa Sen Biswas
+                        </h3>
+
+                        <ul>
+                            <li>D.Litt. in Sanskrit</li>
+                            <li>M.A. in Sanskrit, Hindi & Music</li>
+                            <li>Ph.D. in Sanskrit</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARD 4 -->
+                <article class="faculty-card">
+
+                    <div class="faculty-image">
+                        <img
+                            src="{{ asset('asset/web/about/yoga/khilesh-kumar.jpg') }}"
+                            alt="Sri. Khilesh Kumar"
+                        >
+
+                        <span class="faculty-number">04</span>
+                    </div>
+
+                    <div class="faculty-info">
+
+                        <span class="faculty-role">
+                            Faculty Member
+                        </span>
+
+                        <h3>
+                            Sri. Khilesh Kumar
+                        </h3>
+
+                        <ul>
+                            <li>M.A. in Yoga from Uttarakhand Sanskrit University</li>
+                            <li>B.A. in Yoga</li>
+                            <li>UGC NET qualified</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARD 5 -->
+                <article class="faculty-card">
+
+                    <div class="faculty-image">
+                        <img
+                            src="{{ asset('asset/web/about/yoga/santosh-kumari.jpg') }}"
+                            alt="Santosh Kumari"
+                        >
+
+                        <span class="faculty-number">05</span>
+                    </div>
+
+                    <div class="faculty-info">
+
+                        <span class="faculty-role">
+                            Contractual Faculty
+                        </span>
+
+                        <h3>
+                            Santosh Kumari
+                        </h3>
+
+                        <ul>
+                            <li>Master in Yogic Science</li>
+                            <li>UGC NET qualified</li>
+                            <li>QCI Qualified</li>
+                            <li>Asian Yoga Champion 2018</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARD 6 -->
+                <article class="faculty-card">
+
+                    <div class="faculty-image">
+                        <img
+                            src="{{ asset('asset/web/about/yoga/manish-kumar.jpg') }}"
+                            alt="Manish Kumar"
+                        >
+
+                        <span class="faculty-number">06</span>
+                    </div>
+
+                    <div class="faculty-info">
+
+                        <span class="faculty-role">
+                            Contractual Faculty
+                        </span>
+
+                        <h3>
+                            Manish Kumar
+                        </h3>
+
+                        <ul>
+                            <li>Master's in Yogic Science</li>
+                            <li>Ranchi University</li>
+                            <li>PG Diploma in Yog Vigyan</li>
+                            <li>UGC NET in Yoga</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARD 7 -->
+                <article class="faculty-card">
+
+                    <div class="faculty-image">
+                        <img
+                            src="{{ asset('asset/web/about/yoga/faculty-07.jpg') }}"
+                            alt="Yoga Faculty"
+                        >
+
+                        <span class="faculty-number">07</span>
+                    </div>
+
+                    <div class="faculty-info">
+
+                        <span class="faculty-role">
+                            Faculty Member
+                        </span>
+
+                        <h3>
+                            Yoga Faculty
+                        </h3>
+
+                        <ul>
+                            <li>Experienced Yoga practitioner</li>
+                            <li>Academic and practical training</li>
+                            <li>Focused on holistic development</li>
+                        </ul>
+
+                    </div>
+
+                </article>
 
             </div>
 
 
-            {{-- =================================================
-                FACULTY SLIDER
-            ================================================== --}}
+            <!-- SLIDER CONTROLS -->
+            <div class="faculty-controls">
 
-            <div class="faculty-slider-wrapper">
+                <button
+                    type="button"
+                    class="faculty-arrow faculty-prev"
+                    id="facultyPrev"
+                    aria-label="Previous faculty"
+                >
+                    ←
+                </button>
 
-                <div class="faculty-slider-header">
-
-                    <div>
-                        <span>
-                            Distinguished Faculty
-                        </span>
-
-                        <h3>
-                            Scholars &amp; Practitioners
-                        </h3>
-                    </div>
-
-                    <div class="faculty-slider-line"></div>
-
+                <div class="faculty-progress">
+                    <span id="facultyProgress"></span>
                 </div>
 
-
-                <div class="faculty-slider">
-
-                    <div class="faculty-track">
-
-
-                        {{-- =====================================
-                            CARD 01
-                        ====================================== --}}
-
-                        <article class="faculty-card">
-
-                            <div class="faculty-card-image">
-
-                                <img
-                                    src="{{ asset('asset/web/guest/bibhuti.png') }}"
-                                    alt="Dr. Bibhuti Bhushan Roy"
-                                >
-
-                            </div>
-
-                            <div class="faculty-card-content">
-
-                                <span class="faculty-card-number">
-                                    01
-                                </span>
-
-                                <h4>
-                                    Dr. Bibhuti Bhushan Roy
-                                </h4>
-
-                                <span class="faculty-card-role">
-                                    Yoga Scholar
-                                </span>
-
-                                <p>
-                                    D.Litt. with specialisation in Yoga.
-                                    Research focused on the impact of Yoga
-                                    on people and society.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-
-                        {{-- =====================================
-                            CARD 02
-                        ====================================== --}}
-
-                        <article class="faculty-card">
-
-                            <div class="faculty-card-image">
-
-                                <img
-                                    src="{{ asset('asset/web/guest/manoj-soni.png') }}"
-                                    alt="Dr. Manoj Soni"
-                                >
-
-                            </div>
-
-                            <div class="faculty-card-content">
-
-                                <span class="faculty-card-number">
-                                    02
-                                </span>
-
-                                <h4>
-                                    Dr. Manoj Soni
-                                </h4>
-
-                                <span class="faculty-card-role">
-                                    Yoga Science
-                                </span>
-
-                                <p>
-                                    M.A. in Yoga Science with academic
-                                    experience in Yogic studies and
-                                    university education.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-
-                        {{-- =====================================
-                            CARD 03
-                        ====================================== --}}
-
-                        <article class="faculty-card">
-
-                            <div class="faculty-card-image">
-
-                                <img
-                                    src="{{ asset('asset/web/guest/pampa-sen.png') }}"
-                                    alt="Dr. Pampa Sen Biswas"
-                                >
-
-                            </div>
-
-                            <div class="faculty-card-content">
-
-                                <span class="faculty-card-number">
-                                    03
-                                </span>
-
-                                <h4>
-                                    Dr. Pampa Sen Biswas
-                                </h4>
-
-                                <span class="faculty-card-role">
-                                    Sanskrit &amp; Yoga
-                                </span>
-
-                                <p>
-                                    D.Litt. and Ph.D. with academic
-                                    expertise in Sanskrit, education
-                                    and related disciplines.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-
-                        {{-- =====================================
-                            CARD 04
-                        ====================================== --}}
-
-                        <article class="faculty-card">
-
-                            <div class="faculty-card-image">
-
-                                <img
-                                    src="{{ asset('asset/web/guest/khilesh-kumar.png') }}"
-                                    alt="Sri Khilesh Kumar"
-                                >
-
-                            </div>
-
-                            <div class="faculty-card-content">
-
-                                <span class="faculty-card-number">
-                                    04
-                                </span>
-
-                                <h4>
-                                    Sri Khilesh Kumar
-                                </h4>
-
-                                <span class="faculty-card-role">
-                                    Yoga Practitioner
-                                </span>
-
-                                <p>
-                                    M.A. and B.A. in Yogic studies with
-                                    UGC-NET qualification and academic
-                                    experience in Yoga.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-
-                        {{-- =====================================
-                            CARD 05
-                        ====================================== --}}
-
-                        <article class="faculty-card">
-
-                            <div class="faculty-card-image">
-
-                                <img
-                                    src="{{ asset('asset/web/guest/santosh-kumari.png') }}"
-                                    alt="Santosh Kumari"
-                                >
-
-                            </div>
-
-                            <div class="faculty-card-content">
-
-                                <span class="faculty-card-number">
-                                    05
-                                </span>
-
-                                <h4>
-                                    Santosh Kumari
-                                </h4>
-
-                                <span class="faculty-card-role">
-                                    Contractual Faculty
-                                </span>
-
-                                <p>
-                                    Master's in Yogic Science with
-                                    UGC-NET qualification and experience
-                                    in Yoga education.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-
-                        {{-- =====================================
-                            CARD 06
-                        ====================================== --}}
-
-                        <article class="faculty-card">
-
-                            <div class="faculty-card-image">
-
-                                <img
-                                    src="{{ asset('asset/web/guest/manish-kumar.png') }}"
-                                    alt="Manish Kumar"
-                                >
-
-                            </div>
-
-                            <div class="faculty-card-content">
-
-                                <span class="faculty-card-number">
-                                    06
-                                </span>
-
-                                <h4>
-                                    Manish Kumar
-                                </h4>
-
-                                <span class="faculty-card-role">
-                                    Contractual Faculty
-                                </span>
-
-                                <p>
-                                    Master's and PG Diploma in Yogic
-                                    Science with UGC-NET qualification.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-
-                    </div>
-
-                </div>
+                <button
+                    type="button"
+                    class="faculty-arrow faculty-next"
+                    id="facultyNext"
+                    aria-label="Next faculty"
+                >
+                    →
+                </button>
 
             </div>
 
@@ -337,3 +290,193 @@
     </div>
 
 </section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+    const slider = document.getElementById("facultySlider");
+    const nextBtn = document.getElementById("facultyNext");
+    const prevBtn = document.getElementById("facultyPrev");
+    const progress = document.getElementById("facultyProgress");
+
+    if (!slider) return;
+
+    const cards = Array.from(
+        slider.querySelectorAll(".faculty-card")
+    );
+
+    let currentIndex = 0;
+    let autoSlide;
+
+
+    function getVisibleCards() {
+
+        if (window.innerWidth <= 767) {
+            return 1;
+        }
+
+        if (window.innerWidth <= 991) {
+            return 2;
+        }
+
+        return 3;
+    }
+
+
+    function getCardWidth() {
+
+        const card = cards[0];
+
+        const cardWidth = card.offsetWidth;
+
+        const gap = parseFloat(
+            getComputedStyle(slider).gap
+        );
+
+        return cardWidth + gap;
+    }
+
+
+    function updateSlider() {
+
+        const visibleCards = getVisibleCards();
+
+        const maxIndex = Math.max(
+            0,
+            cards.length - visibleCards
+        );
+
+        currentIndex = Math.min(
+            currentIndex,
+            maxIndex
+        );
+
+        const moveAmount =
+            currentIndex * getCardWidth();
+
+        slider.style.transform =
+            `translateX(-${moveAmount}px)`;
+
+
+        /* progress */
+
+        const progressPercent =
+            ((currentIndex + visibleCards) /
+            cards.length) * 100;
+
+        progress.style.width =
+            `${Math.min(progressPercent, 100)}%`;
+    }
+
+
+    function nextSlide() {
+
+        const visibleCards = getVisibleCards();
+
+        const maxIndex =
+            cards.length - visibleCards;
+
+
+        if (currentIndex >= maxIndex) {
+
+            currentIndex = 0;
+
+        } else {
+
+            currentIndex++;
+
+        }
+
+        updateSlider();
+    }
+
+
+    function prevSlide() {
+
+        const visibleCards = getVisibleCards();
+
+        const maxIndex =
+            cards.length - visibleCards;
+
+
+        if (currentIndex <= 0) {
+
+            currentIndex = maxIndex;
+
+        } else {
+
+            currentIndex--;
+
+        }
+
+        updateSlider();
+    }
+
+
+    function startAutoSlide() {
+
+        clearInterval(autoSlide);
+
+        autoSlide = setInterval(
+            nextSlide,
+            2500
+        );
+    }
+
+
+    nextBtn.addEventListener(
+        "click",
+        () => {
+
+            nextSlide();
+
+            startAutoSlide();
+
+        }
+    );
+
+
+    prevBtn.addEventListener(
+        "click",
+        () => {
+
+            prevSlide();
+
+            startAutoSlide();
+
+        }
+    );
+
+
+    /* Pause while mouse is over slider */
+
+    slider.addEventListener(
+        "mouseenter",
+        () => {
+            clearInterval(autoSlide);
+        }
+    );
+
+
+    slider.addEventListener(
+        "mouseleave",
+        () => {
+            startAutoSlide();
+        }
+    );
+
+
+    /* Responsive resize */
+
+    window.addEventListener(
+        "resize",
+        updateSlider
+    );
+
+
+    updateSlider();
+
+    startAutoSlide();
+
+});
+</script>

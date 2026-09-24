@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
 :root {
     --primary: #091f3e;
     --secondary: #163f6d;
@@ -9,11 +11,11 @@
     --border: #e4e7ec;
     --surface: #f7f8fa;
 
-    --font-heading: "Cormorant Garamond", serif;
-    --font-body: "Montserrat", sans-serif;
+   --font-heading: "Cormorant Garamond", serif;
+    --font-body: "Barlow", sans-serif;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 
 * {
     padding: 0px;
@@ -36,4 +38,14 @@ ul {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--font-heading);
+}
+
+.content, .content > p{
+    font-family: var(--font-body);
+    font-size: clamp(1rem, 0.3vw + 0.95rem, 1.125rem);
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0.008em;
+    color: #344054;
+    max-width: 72ch;
 }

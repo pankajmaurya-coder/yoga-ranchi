@@ -2,21 +2,8 @@
     <div class="container">
         <div class="notice-layout">
             <div class="notice-panel">
-                {{--         
-                <div class="notice-heading">
-                    <span class="notice-eyebrow">
-                        STAY INFORMED
-                    </span>
-                    <h2>
-                        Latest Notices
-                    </h2>
-                    <p>
-                        Important announcements, updates and
-                        circulars from across the University.
-                    </p>
-                </div> --}}
 
-                <div class="title">
+                <!-- <div class="title">
                     <div class="section-eyebrow">
                         <span></span>
                         <small>
@@ -34,14 +21,21 @@
                         Important announcements, updates and
                         circulars from across the University.
                     </p>
+                </div> -->
+                <div class="title course-title">
+                    <div class="section-eyebrow">
+                    </div>
+                    <h2 class="welcome-heading ">
+                        <span class="text-yellow-700 text-4xl">Our Courses</span>
+                    </h2>
+
                 </div>
 
                 <div class="notice-list">
-                    {{-- NOTICE 1 --}}
+                    {{-- course 1 --}}
                     <a href="#" class="notice-item">
                         <div class="notice-date">
                             <strong>01</strong>
-                            {{-- <span>SEP</span> --}}
                         </div>
 
 
@@ -56,7 +50,7 @@
                             </h3>
 
                             <p>
-                                Department of Mathematics
+                                3 Year Program
                             </p>
 
                         </div>
@@ -89,7 +83,7 @@
                             </span>
 
                             <h3>
-                               Master in Yogic Science
+                                Master in Yogic Science
                             </h3>
 
                             <p>
@@ -122,16 +116,15 @@
                         <div class="notice-details">
 
                             <span class="notice-category admission">
-                                ADMISSION
+                                PG
                             </span>
 
                             <h3>
-                                Counselling Schedule
-                                for UG Programmes
+                                Post Graduate Diploma in Yogic Science
                             </h3>
 
                             <p>
-                                Admission Office
+                                1 Year Program
                             </p>
 
                         </div>
@@ -157,16 +150,15 @@
                         <div class="notice-details">
 
                             <span class="notice-category event">
-                                EVENT
+                                Certificate
                             </span>
 
                             <h3>
-                                National Seminar on
-                                Emerging Technologies
+                                Yoga & Lifestyle (Add on Certificate Course)
                             </h3>
 
                             <p>
-                                Department of Computer Science
+                                Department of Yoga
                             </p>
 
                         </div>
@@ -180,13 +172,47 @@
 
                 </div>
 
+                {{-- NOTICE 5 --}}
+                <a href="#" class="notice-item">
+
+                    <div class="notice-date">
+                        <strong>04</strong>
+
+                    </div>
 
 
-                {{-- =================================================
+                    <div class="notice-details">
+
+                        <span class="notice-category event">
+                            Certificate
+                        </span>
+
+                        <h3>
+                            Yoga & Acupressure(Add on Certificate Course)
+                        </h3>
+
+                        <p>
+                            Department of Yoga
+                        </p>
+
+                    </div>
+
+
+                    <span class="notice-arrow">
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+
+
+            {{-- =================================================
                     FOOTER ACTION
                 ================================================= --}}
 
-                <div class="notice-footer">
+            <!-- <div class="notice-footer">
 
                     <a href="#" class="notice-button">
 
@@ -212,7 +238,7 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
 
             <div class="notice-image-panel">
 

@@ -1,17 +1,13 @@
 <section class="industry-section">
     <div class="container">
-        <div class="home-section-heading why-header text-center mx-auto">
-            <span class="section-eyebrow">
-                What We Serve
-            </span>
-
-            <h2 class="section-title">
-                Industry Solutions
+        <div class="title">
+            <div class="section-eyebrow">
+            </div>
+            <h2 class="welcome-heading">
+                LEARN THE DIFFERENT <br>
+                <span class="text-yellow-700 text-4xl">FORMS OF YOGA</span>
             </h2>
-            <p class="section-description content">
-                Digital solutions designed for diverse industries
-                and real-world business challenges.
-            </p>
+
         </div>
 
 
@@ -21,20 +17,16 @@
                 <img src="{{ asset('asset/web/partials/work/tourism.webp') }}" alt="Tourism">
                 <div class="industry-overlay"></div>
                 <div class="industry-content">
-                    <h3>Tourism</h3>
+                    <h3>Vinyasa Yoga</h3>
                     <div class="industry-details">
                         <p class="content">
-                            Smart digital solutions for tourism
-                            management and visitor experience.
+                            The word “vinyasa” can be translated as
+                            “arranging something in a special way,”
+                            like yoga poses for example. In vinyasa yoga
+                            classes, students coordinate
+                            movement with breath to flow from one pose to the next.
                         </p>
-                        <ul>
-                            <li class="content">Tourism Management System</li>
-                            <li class="content">Digital Experience Platform</li>
-                            <li class="content">Stakeholder Portal</li>
-                        </ul>
-                        <a href="#">
-                            View Solutions <span>→</span>
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -45,19 +37,14 @@
                 <img src="{{ asset('asset/web/partials/work/ngo.webp') }}" alt="Mining">
                 <div class="industry-overlay"></div>
                 <div class="industry-content">
-                    <h3>Organization</h3>
+                    <h3>Ashtanga Yoga</h3>
                     <div class="industry-details">
                         <p class="content">
-                            Digital platforms for organization.
+                            Ashtanga means “eight limbs” and encompasses a yogic lifestyle.
+                            Like Vinyasa yoga, the Ashtanga yoga asanas (postures) synchronize
+                            breath with movement as you move through a series of postures.
                         </p>
-                        <ul>
-                            <li class="content">Digital Logistics System</li>
-                            <li class="content">Stockyard Management</li>
-                            <li class="content">UAV Surveillance</li>
-                        </ul>
-                        <a href="#">
-                            View Solutions <span>→</span>
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -68,21 +55,13 @@
                 <img src="{{ asset('asset/web/partials/work/industries.webp') }}" alt="Industry">
                 <div class="industry-overlay"></div>
                 <div class="industry-content">
-                    <h3>Industry & Trade Facilitation</h3>
+                    <h3>Iyengar Yoga</h3>
                     <div class="industry-details">
                         <p class="content">
-                            Powerful platforms that simplify
-                            approvals and industrial processes.
+                            Iyengar yoga is alignment in the asanas using breath control through pranayama.
+                            This style of yoga is usually taught without music and at a slower
+                            pace designed to assist students to get deeper into the postures.
                         </p>
-                        <ul>
-                            <li class="content">Building Plan Approval</li>
-                            <li class="content">CSR Monitoring System</li>
-                            <li class="content">Inspection Management</li>
-                            <li class="content">Land Allotment System</li>
-                        </ul>
-                        <a href="#">
-                            View All Solutions <span>→</span>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -96,24 +75,15 @@
 
                 <div class="industry-content">
 
-                    <h3>Healthcare</h3>
+                    <h3>Bikram Yoga</h3>
 
                     <div class="industry-details">
 
                         <p class="content">
-                            Connected healthcare systems
-                            for better digital services.
+                            Bikram yoga is a great way to stretch, detoxify, relieve stress,
+                            tone, and heal, but here's
+                            everything you need to know first to stay safe during your practice.
                         </p>
-
-                        <ul>
-                            <li class="content">Hospital Management</li>
-                            <li class="content">Health Worker System</li>
-                            <li class="content">Supply Chain Management</li>
-                        </ul>
-
-                        <a href="#">
-                            View Solutions <span>→</span>
-                        </a>
 
                     </div>
 
@@ -131,24 +101,15 @@
 
                 <div class="industry-content">
 
-                    <h3>Education</h3>
+                    <h3>Jivamukti Yoga</h3>
 
                     <div class="industry-details">
 
                         <p class="content">
-                            Technology solutions for modern
-                            education management.
+                            Bikram yoga is a great way to stretch, detoxify, relieve stress,
+                            tone, and heal, but here's everything
+                            you need to know first to stay safe during your practice.
                         </p>
-
-                        <ul>
-                            <li class="content">Admission Automation</li>
-                            <li class="content">Scholarship Management</li>
-                            <li class="content">School Administration</li>
-                        </ul>
-
-                        <a href="#">
-                            View Solutions <span>→</span>
-                        </a>
 
                     </div>
 
@@ -164,24 +125,16 @@
 
                 <div class="industry-content">
 
-                    <h3>Astrology</h3>
+                    <h3>Hatha Yoga</h3>
 
                     <div class="industry-details">
 
                         <p class="content">
-                            Smart astrology platforms for personalized guidance and better user experiences.
-                            for better digital services.
+                            Hatha Yoga focuses on physical postures, mindful breathing,
+                             and gentle movement. It helps develop strength, flexibility,
+                              balance, and body awareness while creating 
+                            a calm and steady foundation for a deeper yoga practice.
                         </p>
-
-                        <ul>
-                            <li class="content">Online Horoscope & Kundli</li>
-                            <li class="content">Astrologer Consultation</li>
-                            <li class="content">Personalized Predictions</li>
-                        </ul>
-
-                        <a href="#">
-                            View Solutions <span>→</span>
-                        </a>
 
                     </div>
 
@@ -196,23 +149,16 @@
 
                 <div class="industry-content">
 
-                    <h3>Real Estate</h3>
+                    <h3>Restorative Yoga</h3>
 
                     <div class="industry-details">
 
                         <p class="content">
-                            Digital solutions that simplify property discovery and real estate management.
+                            Restorative Yoga is a gentle practice focused on deep relaxation,
+                             mindful breathing, and releasing physical tension. Supported postures 
+                             are held comfortably for longer periods, 
+                            allowing the body and mind to rest, recover, and restore.
                         </p>
-
-                        <ul>
-                            <li class="content">Property Listing & Search</li>
-                            <li class="content">Lead & Customer Management</li>
-                            <li class="content">Property Booking & Enquiry</li>
-                        </ul>
-
-                        <a href="#">
-                            View Solutions <span>→</span>
-                        </a>
 
                     </div>
 
