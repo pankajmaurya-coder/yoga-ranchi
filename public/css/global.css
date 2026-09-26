@@ -74,29 +74,15 @@ h6 {
     width: min(100% - clamp(2rem, 6vw, 5rem), 1200px);
     margin-inline: auto;
 }
+.divider{
+   max-width: 220px;
+}
 
 .content,
 .content > p {
-    /* font-family: var(--font-body);
-    font-size: clamp(18px, 3vw, 22px);
-    font-weight: 400;
-    line-height: 1.6;
-    letter-spacing: 0.008em;
-    color: #010611;
-    max-width: 72ch; */
-    
-    /* font-family: var(--body-font);
-    font-size: clamp(17px, 1.05vw, 22px);
-    line-height: 1.5;
-    font-weight: 400;
-    letter-spacing: 0.015em;
-    color: #05090c;
-    max-width: 700px;
-    margin: 0 0 22px; */
     font-family: var(--font-body);
-    font-size: 22px;
+    font-size: clamp(18px, 4vw, 21px);
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: .25px;
     color: #020202;
 }

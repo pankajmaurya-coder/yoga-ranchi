@@ -13,8 +13,8 @@
                 </div>
 
                 <div class="welcome-text content">
-                    <p>
-                        <span class="red pb-5">“ योग: कर्मसु कौशलम् ” </span>
+                    <p class="">
+                        <span class="red">“ योग: कर्मसु कौशलम् ”</span>
                     </P>
                     <P>
                         A shloka of Shrimad Bhagawat Gita (2/48) reveals the
@@ -26,17 +26,17 @@
                         It develops a discipline in our physical and mental status.
                     </p>
 
-                    <p>
+                    {{-- <p>
                         As a course, Yoga is one of the most contemporary subject.
                         Not only it makes our mind and body fit but also has immense
                         job-oriented capacity. I wish a prosperous future and career for our students.
-                    </p>
+                    </p> --}}
 
                 </div>
 
                 <div class="welcome-action">
 
-                    <a href="#" class="welcome-btn">
+                    <a href="{{route('about')}}" class="welcome-btn">
                         <span class="welcome-btn-text">
                             Explore Department
                         </span>
@@ -53,23 +53,20 @@
                 <article class="welcome-person">
                     <div class="welcome-person-image">
                         <img src="{{ asset('asset/web/about/vc.png') }}" alt="Vice-Chancellor">
-                        <span class="welcome-person-role">
+                        {{-- <span class="welcome-person-role">
                             Vice-Chancellor
-                        </span>
+                        </span> --}}
                     </div>
 
                     <div class="welcome-person-info">
 
-                        {{-- <span class="welcome-person-number">
-                            01
-                        </span> --}}
 
                         <h3>
                             Prof. (Dr.) Saroj Sharma
                         </h3>
 
                         <p>
-                            Ranchi University
+                          Vice-Chancellor of Ranchi University
                         </p>
 
                     </div>
@@ -84,9 +81,9 @@
                 <article class="welcome-person">
                     <div class="welcome-person-image">
                         <img src="{{ asset('asset/web/about/director.png') }}" alt="Director">
-                        <span class="welcome-person-role">
+                        {{-- <span class="welcome-person-role">
                             Director
-                        </span>
+                        </span> --}}
 
                     </div>
 
@@ -117,10 +114,10 @@
                     <div class="welcome-person-image">
 
                         <img src="{{ asset('asset/web/about/co-ordinator.png') }}" alt="MCA Co-ordinator">
-
+                        {{-- 
                         <span class="welcome-person-role">
                             Co-ordinator (MCA)
-                        </span>
+                        </span> --}}
 
                     </div>
 

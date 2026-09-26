@@ -4,16 +4,13 @@
         <!-- SECTION HEADER -->
         <div class="title guest-title">
             <h2 class="welcome-heading">
-                Meet Our <br>
-                <span class="orange">
-                    Yoga Faculties
-                </span>
+                
+                Meet Our 
+                <span class="orange">Faculties</span>
             </h2>
-            {{-- <p class="faculty-intro content">
-                Our Department of Yoga brings together experienced academicians,
-                researchers and dedicated yoga professionals committed to
-                promoting education, wellness and holistic development.
-            </p> --}}
+            <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider pt-1">
+             <p class="section-description">Experienced educators helping students discover the deeper dimensions of yoga.</p>
+        
         </div>
 
 

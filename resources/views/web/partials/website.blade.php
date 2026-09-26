@@ -1,11 +1,13 @@
 <section class="important-links ">
     <div class="container">
         <div class="title imp-title">
-            <div class="section-eyebrow">
-            </div>
             <h2 class="welcome-heading ">
-                <span class="orange">Important website</span>
+                Important
+                <span class="orange"> website</span>
             </h2>
+
+             <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider pt-1">
+             <p class="section-description">Essential links for learning, academics, and student services.</p>
 
         </div>
         <div class="marquee">

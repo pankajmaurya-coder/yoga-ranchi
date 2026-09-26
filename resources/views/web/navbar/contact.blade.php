@@ -1,39 +1,36 @@
-@extends('web.layout.app')
+@extends('web.layouts.app')
 @section('title', 'about')
 
 @stack('style')
 <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
 
 @section('content')
-    <section class="hero py-5">
-        <img src="{{ asset('asset/image/back.png') }}" alt="About Ranchi Women's College" class="hero-image">
+    <section class="hero">
+        <img src="{{ asset('asset/web/navbar/hero/background.webp') }}" alt="About Ranchi Women's College" class="hero-image">
 
         <div class="container">
             <div class="hero-wrapper">
                 <div class="hero-content">
                     <div class="hero-title">
-                        <h1>Mathematics Shape</h1>
-                        <h1>A Better Tomorrow</h1>
-                        <img src="{{ asset('asset/divider/divider3.png') }}" class="divider">
+                        <h1>Empowering Minds</h1>
+                        <h1>Through Yoga & Wellness</h1>
+                        <img src="{{ asset('asset/web/divider/divider1.png') }}" class="divider py-1 pb-2">
                     </div>
                     <div class="content">
-                        <p>
-                            Nurturing analytical minds through quality education,
-                            research, and innovation. Explore the beauty of logic,
-                            discover new possibilities,
-                            and be part of a community that values curiosity and excellence.
-                        </p>
+                        <p class="text-white">The Yoga Department provides a nurturing space for physical fitness, mental
+                            peace,
+                            and personal growth. Through yoga and mindfulness,
+                            students develop healthier habits, greater focus, and inner confidence..</p>
                     </div>
                 </div>
 
                 <div class="image">
-                    <img src="{{ asset('asset/image/girl.png') }}" alt="About Ranchi Women's College"
+                    <img src="{{ asset('asset/web/navbar/hero/about.webp') }}" alt="About Ranchi Women's College"
                         class="hero-over-image">
                 </div>
             </div>
         </div>
     </section>
-
     {{-- =========================================================
     CONTACT / LOCATION SECTION
 ========================================================= --}}
@@ -45,7 +42,7 @@
             {{-- ================= SECTION HEADER ================= --}}
             <div class="contact-header">
 
-                <div>
+                {{-- <div>
                     <div class="section-eyebrow">
                         <span></span>
                         Get In Touch
@@ -59,6 +56,18 @@
                         Reach out to the University Department of Mathematics
                         for academic information, enquiries and collaboration.
                     </p>
+                </div> --}}
+                <div class="d-flex flex-column  justify-content-center ">
+                    <div class="about-department-label">
+                        <span></span>
+                       Get In Touch
+                        <span></span>
+                    </div>
+
+                    <h2 class="about-department-title">
+                        Contact <strong>Us</strong>
+                    </h2>
+                    <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider py-1 pb-2">
                 </div>
 
             </div>
@@ -86,13 +95,15 @@
                             </span>
 
                             <h3>
-                                University Department of Mathematics (MCA)
+                                University Department of Yoga
                             </h3>
 
                             <p>
-                                2<sup>nd</sup> Floor, Basic Science Building,<br>
+                                {{-- 2<sup>nd</sup> Floor, Basic Science Building,<br>
                                 Morabadi, Ranchi<br>
-                                Jharkhand - 834008
+                                Jharkhand - 834008 --}}
+                                Institute of Basic Science, Ranchi University,
+                                 Morabadi, Ranchi, Jharkhand 834008, India
                             </p>
 
                         </div>
@@ -136,7 +147,7 @@
                             </span>
 
                             <a href="mailto:dept_math@rediffmail.com">
-                                dept_math@rediffmail.com
+                               pgdy.ru@gmail.com
                             </a>
 
                         </div>

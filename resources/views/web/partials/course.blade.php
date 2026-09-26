@@ -26,9 +26,14 @@
                     <div class="section-eyebrow">
                     </div>
                     <h2 class="welcome-heading ">
-                        <span class="orange">Our Courses</span>
+                        Explore Our
+                        <span class="orange"> Programs</span>
+                        
                     </h2>
+                    <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider pt-1">
 
+                    <p class="section-description">Explore programs that inspire learning, and a lifelong journey
+                        through Yoga.</p>
                 </div>
 
                 <div class="notice-list">

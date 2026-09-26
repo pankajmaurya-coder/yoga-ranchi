@@ -321,7 +321,7 @@ a{text-decoration:none;}
        display: none;
     }
     .header-estd{
-        height: 80px;
+        height: 70px;
        width: auto;
        padding-right: 20px;
     }
@@ -787,12 +787,9 @@ a{text-decoration:none;}
 
 .footer-brand h2 {
     margin: 0;
-
     color: var(--white);
-
     font-family: var(--font-main);
-
-    font-size: 28px;
+    font-size: clamp(18px, 2vw, 25px);
 
     font-weight: 800;
 

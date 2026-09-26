@@ -5,62 +5,34 @@
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
 @endpush
 @section('content')
-    <section class="hero-section">
+
+    <section class="hero">
+        <img src="{{ asset('asset/web/navbar/hero/background.webp') }}" alt="About Ranchi Women's College" class="hero-image">
 
         <div class="container">
-
             <div class="hero-wrapper">
-
-                {{-- =========================
-                 LEFT CONTENT
-            ========================== --}}
                 <div class="hero-content">
-
-                    <div class="hero-title-box">
-
-                        <span class="hero-eyebrow">
-                            University Department
-                        </span>
-
-                        <h1 class="hero-title">
-                            About Our
-                            <span>Department</span>
-                        </h1>
-
-                        <p class="hero-description">
-                            The Department of Yoga is dedicated to academic
-                            excellence, yogic science, research and holistic
-                            development, preparing students for meaningful
-                            personal and professional growth.
-                        </p>
-
-                        <a href="#" class="hero-button">
-                            <span>Explore Department</span>
-
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
+                    <div class="hero-title">
+                        <h1>Empowering Minds</h1>
+                        <h1>Through Yoga & Wellness</h1>
+                         <img src="{{ asset('asset/web/divider/divider1.png') }}" class="divider py-1 pb-2">
                     </div>
-
+                    <div class="content">
+                        <p class="">The Yoga Department provides a nurturing space for physical fitness, mental peace, 
+                            and personal growth. Through yoga and mindfulness,
+                             students develop healthier habits, greater focus, and inner confidence..</p>
+                    </div>
                 </div>
 
-
-                {{-- =========================
-                 RIGHT IMAGE
-            ========================== --}}
-                <div class="hero-visual">
-
-                    <img src="{{ asset('asset/web/navbar/hero/protfolio.webp') }}" alt="Department of Yoga">
-
+                <div class="image">
+                    <img src="{{ asset('asset/web/navbar/hero/about.webp') }}" alt="About Ranchi Women's College"
+                        class="hero-over-image">
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
-    <section class="about-department-section">
+    <section class="about-department-section, sarkar py-5">
         <div class="container">
 
             <div class="about-department-wrapper">
@@ -80,15 +52,12 @@
                 <div class="about-department-content">
 
                     <div class="about-department-label">
-                        <span></span>
-                        About Department
-                        <span></span>
                     </div>
 
                     <h2 class="about-department-title">
                         <strong>Dr. Tulu Sarkar</strong>
                     </h2>
-                    <p>Former Director, School of Yoga</p>
+                    <p class="section-desc text-danger">(Former Director, School of Yoga)</p>
 
                     <div class="about-department-text content">
 
@@ -109,7 +78,7 @@
         </div>
     </section>
 
-    <section class="about-department-section">
+    <section class="about-department-section py-5">
         <div class="container">
 
             <div class="about-department-wrapper yoga-about">
@@ -117,15 +86,18 @@
                 {{-- LEFT CONTENT --}}
                 <div class="about-department-content">
 
-                    <div class="about-department-label">
-                        <span></span>
-                        About Department
-                        <span></span>
-                    </div>
+                    <div class="d-flex flex-column  justify-content-center ">
+                        <div class="about-department-label">
+                            <span></span>
+                            Know About
+                            <span></span>
+                        </div>
 
-                    <h2 class="about-department-title">
-                        Yoga <strong>Department</strong>
-                    </h2>
+                        <h2 class="about-department-title">
+                            Yoga <strong>Department</strong>
+                        </h2>
+                        <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider py-1 pb-2">
+                    </div>
 
                     <div class="about-department-text content">
 
@@ -183,84 +155,85 @@
     </section>
 
     <section class="aims-section">
-    <div class="container">
+        <div class="container">
 
-        <div class="section-heading">
-            <span class="section-label">Our Aim & Objective</span>
+            <div class="section-heading">
+                <span class="section-label">Our Aim & Objective</span>
 
-            <h2>
-                Aims <strong>&amp; Objective</strong>
-            </h2>
+                <h2>
+                    Aims <strong>&amp; Objective</strong>
+                </h2>
+                <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider py-1 pb-2">
+            </div>
+
+            <div class="aims-grid">
+
+                <article class="aim-card">
+                    <div class="aim-icon">
+                        <i class="fa-regular fa-leaf"></i>
+                    </div>
+                    <p>
+                        To provide for a healthy environment for the instructions
+                        and training in Yoga and Spiritual lore and propagate great
+                        Yoga Saints.
+                    </p>
+                </article>
+
+                <article class="aim-card">
+                    <div class="aim-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <p>
+                        To provide in-depth theory and practical-based education
+                        of Yogic Science.
+                    </p>
+                </article>
+
+                <article class="aim-card">
+                    <div class="aim-icon">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <p>
+                        To promote the research and innovative activities among
+                        students and faculties. The advancement and dissemination
+                        of Yoga and its applications to meet the challenges at a
+                        global level.
+                    </p>
+                </article>
+
+                <article class="aim-card">
+                    <div class="aim-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <p>
+                        To undertake induction activities including extra-mural
+                        studies, workshops, seminars and other activities to
+                        contribute to the prosperity of the nation.
+                    </p>
+                </article>
+
+                <article class="aim-card">
+                    <div class="aim-icon">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                    <p>
+                        To undergo Life Training and Character Building Education
+                        with Yoga as a way of Life.
+                    </p>
+                </article>
+
+                <article class="aim-card">
+                    <div class="aim-icon">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <p>
+                        To enhance the skill of students to opt good career and
+                        livelihood in field of Yoga.
+                    </p>
+                </article>
+
+            </div>
+
         </div>
-
-        <div class="aims-grid">
-
-            <article class="aim-card">
-                <div class="aim-icon">
-                    <i class="fa-regular fa-leaf"></i>
-                </div>
-                <p>
-                    To provide for a healthy environment for the instructions
-                    and training in Yoga and Spiritual lore and propagate great
-                    Yoga Saints.
-                </p>
-            </article>
-
-            <article class="aim-card">
-                <div class="aim-icon">
-                    <i class="fa-solid fa-book-open"></i>
-                </div>
-                <p>
-                    To provide in-depth theory and practical-based education
-                    of Yogic Science.
-                </p>
-            </article>
-
-            <article class="aim-card">
-                <div class="aim-icon">
-                    <i class="fa-solid fa-gear"></i>
-                </div>
-                <p>
-                    To promote the research and innovative activities among
-                    students and faculties. The advancement and dissemination
-                    of Yoga and its applications to meet the challenges at a
-                    global level.
-                </p>
-            </article>
-
-            <article class="aim-card">
-                <div class="aim-icon">
-                    <i class="fa-solid fa-users"></i>
-                </div>
-                <p>
-                    To undertake induction activities including extra-mural
-                    studies, workshops, seminars and other activities to
-                    contribute to the prosperity of the nation.
-                </p>
-            </article>
-
-            <article class="aim-card">
-                <div class="aim-icon">
-                    <i class="fa-solid fa-chart-column"></i>
-                </div>
-                <p>
-                    To undergo Life Training and Character Building Education
-                    with Yoga as a way of Life.
-                </p>
-            </article>
-
-            <article class="aim-card">
-                <div class="aim-icon">
-                    <i class="fa-solid fa-bullseye"></i>
-                </div>
-                <p>
-                    To enhance the skill of students to opt good career and
-                    livelihood in field of Yoga.
-                </p>
-            </article>
-
-        </div>
-
-    </div>
-</section>
+    </section>
 @endsection

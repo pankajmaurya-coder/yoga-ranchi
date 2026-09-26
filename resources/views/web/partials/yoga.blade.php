@@ -1,13 +1,15 @@
 <section class="industry-section">
     <div class="container">
-        <div class="title">
-            <div class="section-eyebrow">
-            </div>
+        <div class="title pt-2">
+            {{-- <div class="section-eyebrow">
+            </div> --}}
             <h2 class="welcome-heading">
-                LEARN THE DIFFERENT <br>
-                <span class="orange">FORMS OF YOGA</span>
+                {{-- LEARN THE DIFFERENT <br>
+                <span class="orange">FORMS OF YOGA</span> --}}
+                A Journey Through <span class="orange">Yoga</span>
             </h2>
-
+             <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider pt-1">
+             <p class="section-description">Experience timeless yoga practices for physical, mental, and spiritual well-being.</p>
         </div>
 
 
