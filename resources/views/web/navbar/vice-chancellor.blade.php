@@ -7,13 +7,6 @@
 @section('content')
     <section class="vc-section">
         <div class="container">
-            <!-- SECTION HEADING -->
-            {{-- <div class="vc-heading">
-                <span>University Leadership</span>
-                <h2>Vice-Chancellor</h2>
-            </div> --}}
-
-
             <div class="vc-wrapper">
 
                 <!-- LEFT PROFILE -->
@@ -49,7 +42,8 @@
                         </div>
 
                         <h2 class="about-department-title">
-                           Empowering Education, <strong>Enriching Society</strong>
+                           {{-- Empowering Education, <strong>Enriching Society</strong> --}}
+                           DR. <strong>Saroj Sharma</strong>
                         </h2>
                         {{-- <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider  pb-2"> --}}
                     </div>
@@ -96,7 +90,7 @@
 
 
             <!-- VISION STRIP -->
-            <div class="vc-vision">
+            {{-- <div class="vc-vision">
 
                 <div class="vision-title">
                     <span>01</span>
@@ -112,7 +106,7 @@
                     <span class="border rounded">Research & Innovation</span>
                 </div>
 
-            </div>
+            </div> --}}
 
         </div>
     </section>

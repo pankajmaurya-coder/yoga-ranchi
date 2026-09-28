@@ -48,7 +48,7 @@
                         </div>
 
                         <h2 class="about-department-title">
-                            Advancing Yoga Education, <strong>Inspiring Holistic Growth</strong>
+                            DR. <strong>Ashish Kumar Jha</strong>
                         </h2>
                         {{-- <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider  pb-2"> --}}
                     </div>
@@ -91,7 +91,7 @@
 
 
             <!-- VISION STRIP -->
-            <div class="vc-vision">
+            {{-- <div class="vc-vision">
 
                 <div class="vision-title">
                     <h3>School of Yoga Focus</h3>
@@ -103,10 +103,10 @@
                     <span class="border rounded">Digital & ICT Education</span>
                     <span class="border rounded">Student Development</span>
                     <span class="border rounded">Institutional Growth</span>
-                    {{-- <span class="border rounded">Research & Innovation</span> --}}
+                   
                 </div>
 
-            </div>
+            </div> --}}
 
         </div>
     </section>

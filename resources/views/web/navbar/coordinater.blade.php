@@ -34,7 +34,7 @@
                         </div>
 
                         <h2 class="about-department-title">
-                            Leading Yoga Education with <strong>Vision & Purpose </strong>
+                             DR. <strong>Renu Kumari</strong>
                         </h2>
                         {{-- <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider  pb-2"> --}}
                     </div>
@@ -78,7 +78,7 @@
 
 
             <!-- VISION STRIP -->
-            <div class="vc-vision">
+            {{-- <div class="vc-vision">
 
                 <div class="vision-title">
                     <h3>Institutional Priorities</h3>
@@ -90,10 +90,10 @@
                     <span class="border rounded">Student Wellness</span>
                     <span class="border rounded">Practical Training</span>
                     <span class="border rounded">Holistic Development</span>
-                    {{-- <span class="border rounded">Research & Innovation</span> --}}
+                    
                 </div>
 
-            </div>
+            </div> --}}
 
         </div>
     </section>

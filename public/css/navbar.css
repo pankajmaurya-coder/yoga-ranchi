@@ -1,118 +1,479 @@
 /* =========================================================
-   HERO SECTION
+   PREMIUM HERO SECTION
 ========================================================= */
+
 .hero {
     position: relative;
-    height: 50vh;
+    min-height: clamp(520px, 62vh, 680px);
     overflow: hidden;
     display: flex;
+    isolation: isolate;
 }
 
+/* Background Image */
 .hero-image {
     position: absolute;
+    inset: 0;
+    z-index: -3;
+
     width: 100%;
     height: 100%;
+
     object-fit: cover;
+    object-position: center;
     display: block;
 }
-.hero-wrapper {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+
+
+/* =========================================================
+   LEFT + OVERALL DARK OVERLAY
+========================================================= */
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(5, 35, 58, 0.82) 0%,
+            rgba(5, 35, 58, 0.68) 25%,
+            rgba(5, 35, 58, 0.35) 48%,
+            rgba(5, 35, 58, 0.08) 72%,
+            rgba(5, 35, 58, 0.18) 100%
+        );
 }
 
+
+/* =========================================================
+   RIGHT SIDE SOFT OVERLAY
+========================================================= */
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55%;
+    height: 100%;
+
+    z-index: -1;
+    pointer-events: none;
+
+    background:
+        radial-gradient(
+            circle at 55% 50%,
+            rgba(255, 239, 190, 0.20) 0%,
+            rgba(255, 239, 190, 0.08) 35%,
+            transparent 70%
+        );
+
+    mix-blend-mode: screen;
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.hero > .container {
+    width: min(100% - clamp(2rem, 6vw, 5rem), 1200px);
+    margin-inline: auto;
+    position: relative;
+    z-index: 3;
+}
+
+
+/* =========================================================
+   HERO WRAPPER
+========================================================= */
+
+.hero-wrapper {
+    min-height: clamp(520px, 62vh, 680px);
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+
+/* =========================================================
+   LEFT CONTENT
+========================================================= */
+
 .hero-content {
-    width: 50%;
-    z-index: 2;
+    width: 56%;
+    z-index: 5;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+
+    padding-block: 50px;
 }
 
+
+/* Small Label */
+
+.hero-content::before {
+    content: "UNIVERSITY DEPARTMENT OF YOGA";
+
+    color: #e0bd68;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.hero-title h1 {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-family: var(--title-font, Georgia, serif);
+    font-size: clamp(34px, 4vw, 58px);
+    font-weight: 600;
+    line-height: 1.08;
+
+    letter-spacing: -0.5px;
+
+    text-shadow:
+        0 3px 15px rgba(0, 0, 0, 0.45);
+}
+
+/* Second line gold */
+
+.hero-title h1:nth-child(2) {
+    color: #e4c16d;
+}
+
+
+/* =========================================================
+   DIVIDER
+========================================================= */
+
+.hero-title .divider {
+    width: 85px;
+    height: auto;
+
+    margin-top: 18px;
+    margin-bottom: 10px;
+
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.hero-content .content {
+    max-width: 590px;
+}
+
+.hero-content .content p {
+    margin: 0;
+
+    color: rgba(255, 255, 255, 0.90);
+
+    font-size: clamp(15px, 1.25vw, 18px);
+    line-height: 1.75;
+
+    text-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.65);
+}
+
+
+/* =========================================================
+   RIGHT PERSON
+========================================================= */
+
 .image {
+    width: 44%;
     height: 100%;
+
     display: flex;
     align-items: flex-end;
-    z-index: 2;
+    justify-content: flex-end;
+
+    position: relative;
+    z-index: 4;
 }
+
+
+/* Soft glow behind person */
+
+.image::before {
+    content: "";
+    position: absolute;
+
+    width: clamp(280px, 30vw, 450px);
+    height: clamp(280px, 30vw, 450px);
+
+    right: 8%;
+    bottom: 12%;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255, 231, 170, 0.38) 0%,
+            rgba(255, 231, 170, 0.15) 38%,
+            transparent 72%
+        );
+
+    filter: blur(8px);
+
+    z-index: -1;
+}
+
+
+/* Person */
 
 .hero-over-image {
     display: block;
+
     width: auto;
-    height: 35vh;
-    padding-bottom: 22px;
-    padding-right: 38px;
+    height: clamp(300px, 48vh, 500px);
+
+    max-width: 100%;
+
+    padding: 0;
+    margin-right: clamp(0px, 2vw, 30px);
+
+    object-fit: contain;
+
+    filter:
+        drop-shadow(0 25px 30px rgba(0, 0, 0, 0.22));
 }
 
-/* .hero-title > h1 {
-    color: #123B3A;
-    font-family: var(--title-font);
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 1.2;
-}
-.hero-content p {
-    color: #fff;
-    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
-} */
-.hero-content h1 {
-    color: #ffffff;
-    font-weight: 700;
-    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.65);
-}
 
-.hero-content p {
-    color: #ffffff;
-    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
-}
+/* =========================================================
+   BUTTON — if you add one later
+========================================================= */
 
 .hero-btn {
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    color: var(--white);
-    padding-inline: 20px;
-    background-color: var(--primary-color);
+    margin-top: 22px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 22px;
+
+    border-radius: 30px;
+
+    background: #c79a3b;
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    transition: all 0.3s ease;
 }
-.content-section {
-    background-color: var(--content-background);
-    padding-block: 40px;
+
+.hero-btn:hover {
+    background: #dfb85b;
+    transform: translateY(-2px);
 }
+
+
+/* =========================================================
+   TABLET
+========================================================= */
 
 @media (max-width: 991px) {
-    .hero-title > h1 {
-        font-size: 30px;
+
+    .hero {
+        min-height: 560px;
+    }
+
+    .hero-wrapper {
+        min-height: 560px;
+    }
+
+    .hero-content {
+        width: 58%;
+    }
+
+    .image {
+        width: 42%;
+    }
+
+    .hero-over-image {
+        height: 390px;
+        margin-right: -10px;
+    }
+
+    .hero-content .content p {
+        font-size: 15px;
+        line-height: 1.6;
     }
 }
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
 
 @media (max-width: 768px) {
+
+    .hero {
+        min-height: 720px;
+    }
+
     .hero-wrapper {
+        min-height: 720px;
+
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
     }
 
-    .hero-desc > p {
-        font-size: 14px;
+    /* Darker mobile overlay */
+
+    .hero::before {
+        background:
+            linear-gradient(
+                180deg,
+                rgba(5, 35, 58, 0.82) 0%,
+                rgba(5, 35, 58, 0.68) 48%,
+                rgba(5, 35, 58, 0.38) 100%
+            );
     }
+
+    .hero::after {
+        width: 100%;
+        height: 55%;
+        top: auto;
+        bottom: 0;
+
+        background:
+            radial-gradient(
+                circle at center,
+                rgba(255, 226, 165, 0.25),
+                transparent 70%
+            );
+    }
+
+
+    /* Content */
+
+    .hero-content {
+        width: 100%;
+
+        padding-top: 55px;
+        padding-bottom: 10px;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-content::before {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .hero-title h1 {
+        font-size: clamp(30px, 8vw, 42px);
+        line-height: 1.1;
+    }
+
+    .hero-title .divider {
+        margin-inline: auto;
+    }
+
+    .hero-content .content {
+        max-width: 600px;
+    }
+
+    .hero-content .content p {
+        font-size: 14px;
+        line-height: 1.65;
+    }
+
+
+    /* Person */
+
+    .image {
+        width: 100%;
+        height: auto;
+
+        flex: 1;
+
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .image::before {
+        width: 320px;
+        height: 320px;
+
+        right: 50%;
+        transform: translateX(50%);
+        bottom: 5%;
+    }
+
     .hero-over-image {
-        height: 32vh;
+        height: clamp(280px, 42vh, 360px);
+
+        max-width: 90%;
+
+        margin: 0;
     }
 }
 
-@media (max-width: 576px) {
-    .hero-content {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        padding-top: 20px;
-        gap: 5px;
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .hero {
+        min-height: 680px;
     }
-    .hero-desc > p {
-        padding-inline: 5px;
-        font-size: 16px;
+
+    .hero-wrapper {
+        min-height: 680px;
+    }
+
+    .hero-content {
+        padding-top: 40px;
+    }
+
+    .hero-content::before {
+        font-size: 9px;
+        letter-spacing: 1.5px;
+    }
+
+    .hero-title h1 {
+        font-size: 29px;
+    }
+
+    .hero-content .content p {
+        padding-inline: 8px;
+        font-size: 14px;
+    }
+
+    .hero-over-image {
+        height: 300px;
     }
 }
 /* =========================================================

@@ -3,22 +3,23 @@
     --secondary-color:#d32f2f;
     --accent-color:#f8b400;
     --blue: rgb(29,78,216);
-    --green: rgb(5,150,105);
-    --purple: rgb(109, 40, 217);
-    --white:#fff;
-    --black:#000;
+  
+
     --heading-font:"Poppins",sans-serif;
     --body-font:"Roboto",sans-serif;
-     /* --para: "Barlow Condensed"; */
-     --para: "lato";
+
+
     --brand-font:"Cormorant Garamond", Georgia, serif;
     --nav-font:"Manrope", "Roboto", sans-serif;
     --header-ivory:#fbf8f1;
+
     --header-gold:#b8862e;
     --container-width:1200px;
+
     --transition:.3s ease;
     --border-radius:8px;
 }
+
 *{
     margin:0;
     padding:0;
@@ -26,13 +27,11 @@
 }
 
 
-
-
 .logo{
     position:relative;
     display:grid;
     flex:0 0 auto;
-    width:clamp(104px,9vw,132px);
+    width:clamp(100px,9vw,120px);
     aspect-ratio:1;
     place-items:center;
     overflow:hidden;
@@ -62,7 +61,7 @@ a{text-decoration:none;}
 
 .site-header{
     position:relative;
-    z-index:101;
+    z-index:1000;
     background:var(--header-ivory);
 }
 
@@ -100,7 +99,7 @@ a{text-decoration:none;}
 }
 
 .top-info a{
-    color: var(--white);
+    color: white;
     transition:color var(--transition);
 }
 
@@ -119,27 +118,27 @@ a{text-decoration:none;}
     grid-template-columns:minmax(0,1fr) auto;
     align-items:center;
     gap:28px;
-    min-height:clamp(146px,12vw,172px);
+    min-height:clamp(110px,12vw,120px);
     /* padding:7px 0; */
 }
 
 .header-actions{
     display:flex;
     align-items:center;
-    gap:14px;
+    gap:30px;
 }
 .header-logo{
-    height: 130px;
+    height: 112px;
     width: auto;
 }
 .header-naac{
-    height: 140px;
+    height: 110px;
     width: auto;
     padding-left: 25px;
 }
 
 .header-estd{
-    height: 110px;
+    height: 90px;
     width: auto;
 }
 
@@ -166,7 +165,7 @@ a{text-decoration:none;}
 .header-navbar{
     position:sticky;
     top:0;
-    z-index:100;
+    z-index:9999;
     border-top:2px solid #d4a13b;
     background: var(--primary-color);
     box-shadow:0 7px 16px rgba(10,41,71,.13);
@@ -218,7 +217,7 @@ a{text-decoration:none;}
 .navbar-menu > li:hover > a,
 .navbar-menu > li:focus-within > a,
 .navbar-menu > li.is-current > a{
-    color:var(--white);
+    color: white;
 }
 
 .navbar-menu > li:hover > a::after,
@@ -279,6 +278,7 @@ a{text-decoration:none;}
     opacity:1;
     visibility:visible;
     transform:translateY(0);
+    background-color: white;
 }
 
 .mega-menu{
@@ -294,7 +294,7 @@ a{text-decoration:none;}
 ========================================== */
 @media (min-width:1600px){
     .header-main-wrapper{
-        min-height:180px;
+        min-height:150px;
     }
 }
 
@@ -327,7 +327,7 @@ a{text-decoration:none;}
     }
 
     .header-logo{
-        height: 120px;
+        height: 90px;
         width: auto;
     }
 
@@ -421,16 +421,17 @@ a{text-decoration:none;}
         padding:12px 0;
     }
 
-    .logo{
-        width:84px;
-    }
-    .header-estd{
+      /* .header-logo{
         height: 60px;
+        width: auto;
+    } */
+    .header-estd{
+        height: 40px;
        width: auto;
     }
 
     .header-logo{
-        height: 90px;
+        height: 60px;
         width: auto;
     }
 }
@@ -494,13 +495,9 @@ a{text-decoration:none;}
 .university-footer {
     position: relative;
     width: 100%;
-
     overflow: hidden;
-
-    color: var(--white);
-
+    color: white;
     background: var(--primary);
-
     font-family: var(--font-main);
 }
 
@@ -522,7 +519,6 @@ a{text-decoration:none;}
     width: 100%;
     height: 100%;
     object-fit: cover;
-
     object-position: center;
     opacity: 0.9;
     transform: scale(1.04);
@@ -574,7 +570,6 @@ a{text-decoration:none;}
 
 .footer-container {
     position: relative;
-
     z-index: 3;
 }
 
@@ -584,19 +579,14 @@ a{text-decoration:none;}
 
 .footer-top {
     display: grid;
-
     grid-template-columns:
         1fr
         0.85fr
         1fr;
-
     align-items: center;
-
     gap: 65px;
-
-    min-height: 400px;
-
-    padding: 65px 20px 55px;
+    min-height: 350px;
+    padding: 45px 20px 55px;
 }
 
 /* =========================================================
@@ -605,11 +595,8 @@ a{text-decoration:none;}
 
 .footer-section-title {
     display: flex;
-
     align-items: center;
-
     gap: 10px;
-
     margin-bottom: 25px;
 }
 
@@ -787,14 +774,11 @@ a{text-decoration:none;}
 
 .footer-brand h2 {
     margin: 0;
-    color: var(--white);
+    color: #ffff;
     font-family: var(--font-main);
-    font-size: clamp(18px, 2vw, 25px);
-
+    font-size: clamp(15px, 2vw, 22px);
     font-weight: 800;
-
     line-height: 1;
-
     letter-spacing: 1.5px;
 }
 

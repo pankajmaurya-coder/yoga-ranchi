@@ -21,9 +21,7 @@
                         philosophy of our life by saying “Excellence in any kind of work, comes
                         out through Yoga”. Yoga is journey of life or it may be said as a journey
                         of our Mother Nature where we all living things live together with a quotation
-                        “Vasudhaiw Kutumbakam” Practicing yoga helps in the integration of an individual's
-                        mind, body and soul.
-                        It develops a discipline in our physical and mental status.
+                        “Vasudhaiw Kutumbakam” 
                     </p>
 
                     {{-- <p>

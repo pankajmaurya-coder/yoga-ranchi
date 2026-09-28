@@ -30,7 +30,7 @@
     @include('web.layouts.header')
     @yield('content')
     @include('web.layouts.footer')
-    <script src="{{ asset('js/header.js') }}"></script>
+    <script src="{{ asset('asset/js/header.js') }}"></script>
     @stack('js')
 </body>
 
