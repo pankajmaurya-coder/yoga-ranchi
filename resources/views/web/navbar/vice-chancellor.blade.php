@@ -18,7 +18,7 @@
 
                     <div class="vc-profile-info">
                         <h3>Prof. Saroj Sharma</h3>
-                        <p>Vice-Chancellor · Ranchi University</p>
+                        <p>Vice-Chancellor,  Ranchi University</p>
                     </div>
 
                 </div>
@@ -43,7 +43,7 @@
 
                         <h2 class="about-department-title">
                            {{-- Empowering Education, <strong>Enriching Society</strong> --}}
-                           DR. <strong>Saroj Sharma</strong>
+                           Prof. <strong>Saroj Sharma</strong>
                         </h2>
                         {{-- <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider  pb-2"> --}}
                     </div>
@@ -81,33 +81,9 @@
                                 Education · Research · Innovation · IKS
                             </strong>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
-
-            <!-- VISION STRIP -->
-            {{-- <div class="vc-vision">
-
-                <div class="vision-title">
-                    <span>01</span>
-                    <h3>Academic Vision</h3>
-                </div>
-
-                <div class="vision-list">
-                    <span class="border rounded">Indian Knowledge Tradition</span>
-                    <span class="border rounded">Inclusive Education</span>
-                    <span class="border rounded">Digital & ICT Education</span>
-                    <span class="border rounded">Environmental Sustainability</span>
-                    <span class="border rounded">Values & Citizenship</span>
-                    <span class="border rounded">Research & Innovation</span>
-                </div>
-
-            </div> --}}
-
         </div>
     </section>
 

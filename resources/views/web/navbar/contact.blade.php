@@ -6,7 +6,7 @@
 
 @section('content')
     <section class="hero">
-        <img src="{{ asset('asset/web/navbar/hero/background.webp') }}" alt="About Ranchi Women's College" class="hero-image">
+        <img src="{{ asset('asset/web/navbar/hero/bg2.webp') }}" alt="About Ranchi Women's College" class="hero-image">
 
         <div class="container">
             <div class="hero-wrapper">
@@ -60,7 +60,7 @@
                 <div class="d-flex flex-column  justify-content-center ">
                     <div class="about-department-label">
                         <span></span>
-                       Get In Touch
+                        Get In Touch
                         <span></span>
                     </div>
 
@@ -103,7 +103,7 @@
                                 Morabadi, Ranchi<br>
                                 Jharkhand - 834008 --}}
                                 Institute of Basic Science, Ranchi University,
-                                 Morabadi, Ranchi, Jharkhand 834008, India
+                                Morabadi, Ranchi, Jharkhand 834008, India
                             </p>
 
                         </div>
@@ -112,7 +112,7 @@
 
 
                     {{-- Phone --}}
-                    <div class="contact-card">
+                    {{-- <div class="contact-card">
 
                         <div class="contact-icon">
                             <span>☎</span>
@@ -130,7 +130,7 @@
 
                         </div>
 
-                    </div>
+                    </div> --}}
 
 
                     {{-- Email --}}
@@ -147,7 +147,7 @@
                             </span>
 
                             <a href="mailto:dept_math@rediffmail.com">
-                               pgdy.ru@gmail.com
+                                pgdy.ru@gmail.com
                             </a>
 
                         </div>
@@ -169,11 +169,11 @@
                             </span>
 
                             <h3>
-                                Monday – Friday
+                                Monday – Saturday
                             </h3>
 
                             <p>
-                                10:00 AM – 5:00 PM
+                                10:00 AM – 4:00 PM
                             </p>
 
                         </div>
@@ -182,7 +182,7 @@
 
 
                     {{-- CTA --}}
-                    <a href="mailto:dept_math@rediffmail.com" class="contact-cta">
+                    {{-- <a href="mailto:dept_math@rediffmail.com" class="contact-cta">
 
                         <div>
                             <strong>
@@ -196,7 +196,7 @@
 
                         <b>→</b>
 
-                    </a>
+                    </a> --}}
 
                 </div>
 

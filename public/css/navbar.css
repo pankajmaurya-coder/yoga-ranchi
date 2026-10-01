@@ -579,10 +579,8 @@ background-color: #f1f7fa;
 
 .about-department-image-frame img {
     display: block;
-
     width: 100%;
     height: 100%;
-
     object-fit: cover;
 }
 
@@ -2527,6 +2525,340 @@ background-color: #f1f7fa;
         align-items: flex-start;
         flex-direction: column;
         gap: 6px;
+    }
+
+}
+
+/* =========================================================
+   GRID
+========================================================= */
+
+.faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    align-items: stretch;
+}
+
+
+/* =========================================================
+   CARD
+========================================================= */
+
+.faculty-card {
+    position: relative;
+
+    padding: 18px;
+
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+
+    box-shadow: 0 8px 25px rgba(9, 31, 62, .04);
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease,
+        border-color .35s ease;
+}
+
+.faculty-card:hover {
+    transform: translateY(-6px);
+
+    border-color: rgba(212, 175, 90, .5);
+
+    box-shadow: 0 18px 40px rgba(9, 31, 62, .10);
+}
+
+
+/* =========================================================
+   CARD TOP
+========================================================= */
+
+.faculty-card-top {
+    position: relative;
+
+    display: flex;
+    gap: 18px;
+
+    min-height: 175px;
+}
+
+.faculty-number {
+    position: absolute;
+    top: -8px;
+    right: 0;
+
+    color: #eef1f5;
+    font-family: var(--font-main);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+/* =========================================================
+   PHOTO
+========================================================= */
+
+.faculty-photo {
+    position: relative;
+
+    width: 120px;
+    height: 155px;
+
+    flex-shrink: 0;
+
+    overflow: hidden;
+
+    border-radius: 10px;
+    background: var(--surface);
+}
+
+.faculty-photo::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    border: 1px solid rgba(212, 175, 90, .35);
+    border-radius: inherit;
+
+    pointer-events: none;
+}
+
+.faculty-photo img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: transform .5s ease;
+}
+
+.faculty-card:hover .faculty-photo img {
+    transform: scale(1.05);
+}
+
+
+/* =========================================================
+   INFORMATION
+========================================================= */
+
+.faculty-info {
+    min-width: 0;
+    padding-top: 6px;
+}
+
+.faculty-info h3 {
+    position: relative;
+    z-index: 1;
+
+    padding-right: 25px;
+
+    color: var(--primary);
+
+    font-family: var(--font-main);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.faculty-line {
+    display: block;
+
+    width: 32px;
+    height: 2px;
+
+    margin-top: 10px;
+
+    background: var(--accent);
+}
+
+.faculty-qualification {
+    margin-top: 11px;
+
+    color: var(--muted);
+
+    font-family: var(--font-main);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.faculty-interest {
+    margin-top: 15px;
+}
+
+.faculty-interest small {
+    display: block;
+
+    color: var(--accent);
+
+    font-family: var(--font-main);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.faculty-interest p {
+    margin-top: 4px;
+
+    color: var(--secondary);
+
+    font-family: var(--font-main);
+    font-size: 13px;
+    line-height: 1.45;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.faculty-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 16px;
+    padding-top: 14px;
+
+    border-top: 1px solid var(--border);
+}
+
+.faculty-footer > span {
+    color: #98a2b3;
+
+    font-family: var(--font-main);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+}
+
+.faculty-footer a {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    color: var(--primary);
+
+    font-family: var(--font-main);
+    font-size: 13px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    transition: color .3s ease;
+}
+
+.faculty-footer a b {
+    font-size: 18px;
+    font-weight: 400;
+
+    transition: transform .3s ease;
+}
+
+.faculty-footer a:hover {
+    color: var(--accent);
+}
+
+.faculty-footer a:hover b {
+    transform: translateX(4px);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991px) {
+
+    .faculty-section {
+        padding-block: 60px;
+    }
+
+    .faculty-header {
+        margin-bottom: 38px;
+    }
+
+    .faculty-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .faculty-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .faculty-count {
+        padding-left: 15px;
+    }
+
+    .faculty-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .faculty-heading h2 {
+        font-size: 42px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 576px) {
+
+    .faculty-section {
+        padding-block: 45px;
+    }
+
+    .faculty-heading h2 {
+        font-size: 36px;
+    }
+
+    .faculty-heading > p {
+        font-size: 15px;
+    }
+
+    .faculty-card {
+        padding: 15px;
+    }
+
+    .faculty-card-top {
+        gap: 14px;
+        min-height: 155px;
+    }
+
+    .faculty-photo {
+        width: 105px;
+        height: 140px;
+    }
+
+    .faculty-info h3 {
+        font-size: 18px;
+    }
+
+    .faculty-interest {
+        margin-top: 10px;
     }
 
 }

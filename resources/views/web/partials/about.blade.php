@@ -60,7 +60,7 @@
 
 
                         <h3>
-                            Prof. (Dr.) Saroj Sharma
+                            Prof. Saroj Sharma
                         </h3>
 
                         <p>
@@ -125,7 +125,7 @@
                             02
                         </span> --}}
                         <h3>
-                            Miss. Renu Kumari
+                            Dr. Renu Kumari
                         </h3>
                         <p>
                             Coordinator, School of yoga, Ranchi university

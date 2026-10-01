@@ -32,52 +32,6 @@
         </div>
     </section>
 
-    <section class="about-department-section, sarkar py-5">
-        <div class="container">
-
-            <div class="about-department-wrapper">
-
-                <div class="about-department-image">
-
-                    <div class="about-department-image-frame">
-
-                        <img src="{{ asset('asset/web/about/faculty/tulu.webp') }}" alt="Yoga Department">
-
-                    </div>
-
-                </div>
-
-
-                {{-- LEFT CONTENT --}}
-                <div class="about-department-content">
-
-                    <div class="about-department-label">
-                    </div>
-
-                    <h2 class="about-department-title">
-                        <strong>Dr. Tulu Sarkar</strong>
-                    </h2>
-                    <p class="section-desc text-danger">(Former Director, School of Yoga)</p>
-
-                    <div class="about-department-text content">
-
-                        <p>
-                            It is a moment of immense pride and pleasure to write a few words as the first
-                            Director of the School of Yoga of Ranchi University.
-                            Years of deliberation became a reality with establishment of the Department in 2017.
-                        </p>
-
-                        <p>
-                            Our vision is to nurture and groom the students in our ancient Yogic knowledge
-                            and develop a scientific temperament. We have a long way to go and there are plans
-                            to expand the boundaries by introducing new courses and research opportunities.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="about-department-section py-5">
         <div class="container">
 

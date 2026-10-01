@@ -16,7 +16,7 @@
         <div class="industry-wrapper" id="industryWrapper">
             <!-- CARD 1 -->
             <div class="industry-card active">
-                <img src="{{ asset('asset/web/image/yoga/vinyasa.webp') }}" alt="Tourism">
+                <img src="{{ asset('asset/web/image/yoga/Vinyasa.webp') }}" alt="Tourism">
                 <div class="industry-overlay"></div>
                 <div class="industry-content">
                     <h3>Vinyasa Yoga</h3>   
@@ -36,7 +36,7 @@
 
             <!-- CARD 2 -->
             <div class="industry-card">
-                <img src="{{ asset('asset/web/image/yoga/ashtanga.webp') }}" alt="Mining">
+                <img src="{{ asset('asset/web/image/yoga/Ashtanga.webp') }}" alt="Mining">
                 <div class="industry-overlay"></div>
                 <div class="industry-content">
                     <h3>Ashtanga Yoga</h3>
@@ -97,7 +97,7 @@
             <!-- CARD 5 -->
             <div class="industry-card">
 
-                <img src="{{ asset('asset/web/image/yoga/jivamukti.webp') }}" alt="Education">
+                <img src="{{ asset('asset/web/image/yoga/Jivamukti.webp') }}" alt="Education">
 
                 <div class="industry-overlay"></div>
 

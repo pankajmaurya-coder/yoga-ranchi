@@ -5,18 +5,25 @@
             <ul class="top-info">
 
                 <li>
-                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
-                    <a href="#">Admission Enquiry: +91 70501 74723</a>
+                    {{-- <i class="fa-solid fa-phone" aria-hidden="true"></i> --}}
+                    <a href="#">📍 Basic Science Building, Morhabadi,</a>
                 </li>
 
                 <li>
                     <i class="fa-regular fa-envelope" aria-hidden="true"></i>
-                    <a href="#">ranchiyoga@gmail.com</a>
+                    <a href="#">pgdy.ru@gmail.com</a>
                 </li>
 
                 <li>
-                    <i class="fa-solid fa-headset" aria-hidden="true"></i>
-                    <a href="#">Helpline: 0651-2562221</a>
+                    {{-- <i class="fa-solid fa-headset" aria-hidden="true"></i> --}}
+                    {{-- <a href="#">Basic Science Building, Ranchi University</a> --}}
+
+                    <i class="fa-brands fa-youtube" style="color: rgb(255, 0, 0);"></i>
+                    <i class="fa-brands fa-facebook-f" style="color: rgb(116, 192, 252);"></i>
+                    <i class="fa-brands fa-instagram" style="color: rgb(223, 20, 20);"></i>
+                    <i class="fa-brands fa-linkedin" style="color: rgb(73, 65, 236);"></i>
+
+
                 </li>
 
             </ul>
@@ -92,8 +99,18 @@
                     </li>
 
                     <li>
+                        <a href="{{ route('former') }}">Former Vice-Chancellor </a>
+                    </li>
+
+
+                    <li>
                         <a href="{{ route('director') }}">Director</a>
                     </li>
+
+                    <li>
+                        <a href="{{ route('f-director') }}">Former Director</a>
+                    </li>
+
 
                     <li>
                         <a href="{{ route('coordinater') }}">Coordinator</a>
@@ -114,11 +131,11 @@
                 <ul class="nav-dropdown-menu">
 
                     <li>
-                        <a href="#">Teaching Faculties</a>
+                        <a href="{{ route('teaching') }}">Teaching Faculties</a>
                     </li>
 
                     <li>
-                        <a href="#">Non Teaching Faculties</a>
+                        <a href="{{ route('non-teaching') }}">Non Teaching Faculties</a>
                     </li>
                 </ul>
 
@@ -140,15 +157,19 @@
                     </li>
 
                     <li>
-                        <a href="#">Programme and Course</a>
+                        <a href="{{ route('library') }}">Digital Library</a>
                     </li>
+
+                    {{-- <li>
+                        <a href="#">Programme and Course</a>
+                    </li> --}}
 
                     <li>
                         <a href="#">Fee Structure</a>
                     </li>
 
 
-                     <li>
+                    <li>
                         <a href="#">Admission</a>
                     </li>
 
@@ -182,20 +203,20 @@
                 <ul class="nav-dropdown-menu">
 
                     <li>
-                        <a href="{{route('achievements')}}">Achievements</a>
+                        <a href="{{ route('achievements') }}">Achievements</a>
                     </li>
 
                     <li>
-                        <a href="{{route('media')}}">press & media</a>
+                        <a href="{{ route('media') }}">Press & Media</a>
                     </li>
 
-                     <li>
-                        <a href="{{route('seminars')}}">workshop & seminars</a>
+                    <li>
+                        <a href="{{ route('seminars') }}">Workshop & Seminars</a>
                     </li>
 
 
                     <li>
-                        <a href="#">publications</a>
+                        <a href="#">Publications</a>
                     </li>
 
 

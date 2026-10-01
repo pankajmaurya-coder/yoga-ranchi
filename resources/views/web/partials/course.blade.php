@@ -28,7 +28,7 @@
                     <h2 class="welcome-heading ">
                         Explore Our
                         <span class="orange"> Programs</span>
-                        
+
                     </h2>
                     <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider pt-1">
 
@@ -38,7 +38,7 @@
 
                 <div class="notice-list">
                     {{-- course 1 --}}
-                    <a href="#" class="notice-item">
+                    <a href="{{ asset('asset/web/about/course/UG_YOGIC_SCIENCE_Honours.pdf') }}" class="notice-item">
                         <div class="notice-date">
                             <strong>01</strong>
                         </div>
@@ -70,7 +70,7 @@
 
 
                     {{-- NOTICE 2 --}}
-                    <a href="#" class="notice-item">
+                    <a href="{{ asset('asset/web/about/course/pg.pdf') }}" class="notice-item">
 
                         <div class="notice-date">
 
@@ -107,7 +107,7 @@
 
 
                     {{-- NOTICE 3 --}}
-                    <a href="#" class="notice-item">
+                    <a href="{{ asset('asset/web/about/course/pg-diploma.pdf') }}" class="notice-item">
 
                         <div class="notice-date">
 
@@ -141,109 +141,9 @@
 
                     </a>
 
-
-
-                    {{-- NOTICE 4 --}}
-                    <a href="#" class="notice-item">
-
-                        <div class="notice-date">
-                            <strong>04</strong>
-
-                        </div>
-
-
-                        <div class="notice-details">
-
-                            <span class="notice-category event">
-                                Certificate
-                            </span>
-
-                            <h3>
-                                Yoga & Lifestyle (Add on Certificate Course)
-                            </h3>
-
-                            <p>
-                                Department of Yoga
-                            </p>
-
-                        </div>
-
-
-                        <span class="notice-arrow">
-                            →
-                        </span>
-
-                    </a>
-
                 </div>
-
-                {{-- NOTICE 5 --}}
-                <a href="#" class="notice-item">
-
-                    <div class="notice-date">
-                        <strong>05</strong>
-
-                    </div>
-
-
-                    <div class="notice-details">
-
-                        <span class="notice-category event">
-                            Certificate
-                        </span>
-
-                        <h3>
-                            Yoga & Acupressure(Add on Certificate Course)
-                        </h3>
-
-                        <p>
-                            Department of Yoga
-                        </p>
-
-                    </div>
-
-
-                    <span class="notice-arrow">
-                        →
-                    </span>
-
-                </a>
 
             </div>
-
-
-
-            {{-- =================================================
-                    FOOTER ACTION
-                ================================================= --}}
-
-            <!-- <div class="notice-footer">
-
-                    <a href="#" class="notice-button">
-
-                        <span>
-                            VIEW ALL NOTICES
-                        </span>
-
-                        <strong>
-                            →
-                        </strong>
-
-                    </a>
-
-
-                    <div class="notice-footer-line">
-
-                        <span></span>
-
-                        <small>
-                            BUILDING A BRIGHTER TOMORROW
-                        </small>
-
-                    </div>
-
-                </div>
-            </div> -->
 
             <div class="notice-image-panel">
 
@@ -256,34 +156,7 @@
                 <div class="notice-image-overlay"></div>
 
 
-                {{-- Diagonal navy shape --}}
                 <div class="notice-image-shape"></div>
-
-
-                {{-- Image content --}}
-                <div class="notice-image-content">
-
-                    {{-- <span class="image-label">
-                        RANCHI UNIVERSITY
-                    </span> --}}
-
-                    {{-- <h3>
-                        Knowledge Today
-                        <br>
-                        <em>A Brighter Tomorrow</em>
-                    </h3>
-
-                    <div class="image-divider"></div>
-
-                    <p>
-                        LEARN
-                        <span>|</span>
-                        GROW
-                        <span>|</span>
-                        SERVE
-                    </p> --}}
-
-                </div>
 
                 {{-- Decorative corner --}}
                 <div class="image-corner"></div>

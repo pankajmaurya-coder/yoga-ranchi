@@ -1,7 +1,5 @@
 
 * {
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -12,14 +10,6 @@
 
 
 
-.orange{
-color: #EB7D00;
-}
-
-.red{
-    color: red;
-    font-weight: 800px;
-}
 
 /* ===================
    SWIPER
@@ -86,7 +76,7 @@ swiper-container.mySwiper swiper-slide img {
 
 @media (max-width: 768px) {
     swiper-container.mySwiper {
-        height: 50vh;
+        height: 40vh;
     }
     .autoplay-progress {
         right: 15px;
@@ -1765,8 +1755,6 @@ padding-bottom: 40px;
         padding: 18px;
     }
 }
-
-/* notice */
 
 /*==================================
             NOTICE SECTION

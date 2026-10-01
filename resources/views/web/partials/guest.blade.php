@@ -5,7 +5,7 @@
         <div class="title guest-title">
             <h2 class="welcome-heading">
                 
-                Meet Our 
+                Meet Our Guest
                 <span class="orange">Faculties</span>
             </h2>
             <img src="{{ asset('asset/web/divider/divider2.png') }}" class="divider pt-1">

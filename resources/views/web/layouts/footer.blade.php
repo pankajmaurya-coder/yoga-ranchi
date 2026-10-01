@@ -33,20 +33,20 @@
                             Home
                         </a>
 
-                        <a href="#">
-                            About University
+                        <a href="{{route('about')}}">
+                            About
                         </a>
 
-                        <a href="#">
-                            Academics
+                        <a href="{{route('syllabus')}}">
+                            Syllabus
                         </a>
 
-                        <a href="#">
+                        <a href=" {{route('teaching')}}">
                             Faculty
                         </a>
 
-                        <a href="#">
-                            Research
+                        <a href="{{route('achievements')}}">
+                            Achievements
                         </a>
 
                     </nav>
@@ -54,23 +54,23 @@
 
                     <nav class="footer-link-list">
 
-                        <a href="#">
-                            Students
+                        <a href="https://ranchiuniversity.ac.in/">
+                            Ranchi University
                         </a>
 
-                        <a href="#">
-                            Notices
+                        <a href="https://www.ugc.gov.in/">
+                            Ugc
                         </a>
 
-                        <a href="#">
-                            Events
+                        <a href="https://www.ayush.gov.in/">
+                           Ayush Ministry
                         </a>
 
-                        <a href="#">
-                            Gallery
+                        <a href="https://www.education.gov.in/">
+                            Ministry of Education
                         </a>
 
-                        <a href="#">
+                        <a href="{{route('contact')}}">
                             Contact
                         </a>
 
@@ -171,7 +171,7 @@
                         </p>
 
                         <small>
-                            10:00 AM – 5:00 PM
+                            10:00 AM – 4:00 PM
                         </small>
 
                     </div>
@@ -214,7 +214,7 @@
                         </span>
 
                         <a href="mailto:maths@ranchiuniversity.ac.in">
-                            yoga@ranchiuniversity.ac.in
+                            pgdy.ru@gmail.com
                         </a>
 
                     </div>

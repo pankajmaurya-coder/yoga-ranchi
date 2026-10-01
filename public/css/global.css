@@ -23,6 +23,16 @@
     box-sizing: border-box;
 }
 
+
+.orange{
+color: #EB7D00;
+}
+
+.red{
+    color: red;
+    font-weight: 800px;
+}
+
 body {
     scroll-behavior: smooth;
     font-family: var(--font-body);

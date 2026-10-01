@@ -40,8 +40,9 @@
                         src="{{ asset('asset/web/partials/website/akhil.jpg') }}" alt="Akhil"></a>
                 <a href="https://jharkhanduniversities.nic.in/home" class="link-card"><img
                         src="{{ asset('asset/web/partials/website/chancellor.jpg') }}" alt="chancellor"></a>
+                      
                 <a href="https:/inflibnet.ac.in" class="link-card"><img
-                        src="{{ asset('asset/web/partials/website/inflibent.jpg') }}" alt="inflibent"></a>
+                        src="{{ asset('asset/web/partials/website/Inflibent.jpg') }}" alt="inflibent"></a>
                 <a href="https://ndl.iitkgp.ac.in/" class="link-card"><img
                         src="{{ asset('asset/web/partials/website/library.jpg') }}" alt="library"></a>
                 <a href="https://www.education.gov.in/" class="link-card"><img
